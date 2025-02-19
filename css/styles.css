@@ -6,27 +6,23 @@
     --gris: #757575;
     --grisClaro: #DFE9F3
 }
-
 /* Globales */
 html {
     font-size: 62.5%;
     box-sizing: border-box;
     /* Hack para box model **/
 }
-
 *,
 *:before,
 *:after {
     box-sizing: inherit;
 }
-
 body {
     font-size: 16px;
     font-family: 'Krub', sans-serif;
     background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
     /*Color de fondo */
 }
-
 /*Tipografias */
 h1 {
     font-size: 3.8rem;
@@ -45,7 +41,6 @@ h2,
 h3 {
     text-align: center;
 }
-
 /* Titulos */
 .titulo {
     text-align: center;
@@ -119,7 +114,6 @@ h3 {
 .nav-bg {
     background-color: var(--secundario);
 }
-
 .navegacion-principal {
     display: flex;
     flex-direction: column;
@@ -147,12 +141,10 @@ h3 {
     font-weight: bold;
     padding: 1rem;
 }
-
 .navegacion-principal a:hover {
     background-color: var(--primario);
     color: var(--oscuro);
 }
-
 /* Hero */
 .hero {
     background-image: url(../img/hero.jpg);
@@ -175,7 +167,6 @@ h3 {
     align-items: center;
     justify-content: center;
 }
-
 .contenido-hero h2,
 .contenido-hero p {
     color: var(--blanco)
